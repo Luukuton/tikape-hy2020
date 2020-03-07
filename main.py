@@ -26,12 +26,20 @@ def main():
     }
 
     while True:
-        print("\n 0: Poistu\n 1: Luo tietokanta ja taulukot\n 2: Lisää paikka\n 3: Lisää asiakas "
-              "\n 4: Lisää paketti \n 5: Skannaa / Lisää tapahtuma"
-              "\n 6: Hae tapahtumat seurantakoodin perusteella"
-              "\n 7: Hae asiakkaan paketit ja niiden tapahtumien määrä"
-              "\n 8: Hae tietyn paikan tapahtumien määrä tiettynä päivänä (vvvv.kk.pp)"
-              "\n 9: Suorita tehokkuustesti\n10: Luo indeksit")
+        print(
+            "\n 0: Poistu"
+            "\n 1: Luo tietokanta ja taulukot"
+            "\n 2: Lisää paikka"
+            "\n 3: Lisää asiakas"
+            "\n 4: Lisää paketti"
+            "\n 5: Skannaa / Lisää tapahtuma"
+            "\n 6: Hae tapahtumat seurantakoodin perusteella"
+            "\n 7: Hae asiakkaan paketit ja niiden tapahtumien määrä"
+            "\n 8: Hae tietyn paikan tapahtumien määrä tiettynä päivänä (vvvv.kk.pp)"
+            "\n 9: Suorita tehokkuustesti"
+            "\n10: Luo indeksit"
+            )
+
         n = input("\nValitse toiminto (0-10): ")
         if n.isdigit():
             n = int(n)
